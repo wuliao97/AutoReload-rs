@@ -1,6 +1,6 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+pub mod ar;
+
+// use ar
 
 #[cfg(test)]
 mod tests {
